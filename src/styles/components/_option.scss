@@ -1,0 +1,21 @@
+.option {
+  background: $mgray;
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size;
+  border-bottom: 1px solid $dgray;
+}
+
+.option:hover {
+  background: $dgray;
+  transition: ease-in-out .2s;
+}
+
+.option--text {
+  color: $white;
+  font-size: $l-size;
+}
+
+.option--text-wrap {
+  word-break: break-all;
+}

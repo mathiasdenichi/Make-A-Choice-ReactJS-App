@@ -1,0 +1,58 @@
+.big-button {
+  background-color: $mgray;
+  border: none;
+  border-bottom: .6rem solid $dgray;
+  color: $white;
+  text-transform: uppercase;
+  padding: 2.5rem;
+  font-weight: bold;
+  font-size: $l-size;
+  width: 100%;
+  margin-bottom: $x-size;
+}
+
+.big-button:hover {
+  transition: ease-in-out .3s;
+  background-color: $dgray;
+  border-bottom: .6rem solid darken($dgray, 10%);
+}
+
+
+.button {
+  background: $mgray;
+  border-bottom: .6rem solid $dgray;
+  color: $white;
+  font-weight: 500;
+  border: none;
+  border-bottom: .6rem solid darken($dgray, 10%);
+  padding: $s-size;
+  margin:  0 $s-size
+}
+
+.button:hover {
+  transition: ease-in-out .3s;
+  background-color: $dgray;
+  border-bottom: .6rem solid darken($dgray, 10%);
+}
+
+.button--add:hover {
+  background: $lgreen;
+}
+
+.button--remove:hover {
+  background: red;
+}
+
+.button-small {
+  background: none;
+  color: $white;
+  font-weight: 500;
+  border: none;
+  font-size: $s-size;
+  padding: $s-size;
+  margin-left: $m-size;
+}
+
+.button-small:hover {
+  color: red;
+}
