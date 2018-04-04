@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Indecision App",
   "main": "index.js",
+  "homepage": "https://mathiasdenichi.github.io/Make-A-Choice-ReactJS-App",
   "scripts": {
     "launch": "live-server public/",
     "build": "webpack",
