@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Indecision App",
   "main": "index.js",
+  "homepage": "https://mathiasdenichi.github.io/Make-A-Choice-ReactJS-App",
   "scripts": {
     "launch": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +21,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "^0.28.4",
+    "gh-pages": "^1.1.0",
     "live-server": "^1.2.0",
     "node-sass": "^4.5.3",
     "normalize.css": "^8.0.0",
